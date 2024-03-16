@@ -18,7 +18,7 @@ function Navbar() {
     <header className="fixed bg-gradient-to-b from-gray-900 to-black text-white">
       <div className="md:flex-col">
         <img
-          src="/images/profile.jpg"
+          src="./images/profile.jpg"
           className="h-48 w-48 hidden lg:flex rounded-full border-solid border-4 border-slate-800"
         />
         <h3 className="hidden lg:flex lg:text-center lg:text-2xl font-bold tracking-wide my-2">
