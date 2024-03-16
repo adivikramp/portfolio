@@ -1,0 +1,29 @@
+[{
+        "img": "/images/nursery.jpg",
+        "title": "The Nest - Nursery",
+        "desc": "An online platform dedicated to nurseries offering a wide range of plants and gardening tools for enthusiasts. Secure user accounts with login/logout functionality. Browse and search for various plants and gardening tools.",
+        "tech": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
+        "link": "https://github.com/adivikramp/theNest"
+    },
+    {
+        "img": "/images/bloggy.jpg",
+        "title": "Bloggy",
+        "desc": "A dynamic online platform designed for blog enthusiasts to publish, share, and engage with a community of bloggers. Secure user accounts with login/logout functionality. Users can create, edit, and delete their own blog posts. Explore a collection of blogs posted by other users. Manage personal information and view own blog posts.",
+        "tech": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
+        "link": "https://github.com/adivikramp/Bloggy"
+    },
+    {
+        "img": "/images/library.jpg",
+        "title": "BookQuest",
+        "desc": "An online library management system facilitating students to access and borrow books from a digital library, managed by administrators having intuitive and visually appealing interface for students and administrators. Developed a dashboard with comprehensive functionality for administrators to manage book requests, inventory, and user accounts. Integrated search functionality for easy navigation through the library catalog and implemented In-app notifications for students regarding book loan approvals/rejections.",
+        "tech": ["MongoDB", "ExpressJS", "EJS", "NodeJS", "TailwindCSS"],
+        "link": "https://github.com/TEAMIRAGE/BookQuest"
+    },
+    {
+        "img": "/images/medical.jpg",
+        "title": "HealthSquare",
+        "desc": "Offers advanced medical scanning for fractures and generates reports for thyroid and CBC analysis with a user-friendly interface. I Tried to enhance user experience, ensure clear presentation of medical information, and accommodate users. Worked closely with the backend team to integrate frontend with advanced functionalities. Aimed to contribute to the overall success of HealthSquare in revolutionizing healthcare delivery through effective frontend development.",
+        "tech": ["MongoDB", "ExpressJS", "EJS", "NodeJS", "VertexAI", "TailwindCSS"],
+        "link": "https://github.com/TEAMIRAGE/HealthSquare"
+    }
+]
