@@ -86,15 +86,15 @@ function Navbar() {
         </button>
       </nav>
       <div className="flex justify-evenly w-full">
-        <Link href="https://www.instagram.com/aditya_vikram24/">
+        <a href="https://www.instagram.com/aditya_vikram24/">
           <i className="fa-brands fa-instagram text-2xl" />
-        </Link>
-        <Link href="https://github.com/adivikramp">
+        </a>
+        <a href="https://github.com/adivikramp">
           <i className="fa-brands fa-github text-2xl" />
-        </Link>
-        <Link href="https://www.linkedin.com/in/adivikramp">
+        </a>
+        <a href="https://www.linkedin.com/in/adivikramp">
           <i className="fa-brands fa-linkedin text-2xl" />
-        </Link>
+        </a>
         <button className="nav-btn" onClick={showNavbar}>
           <FaBars />
         </button>
