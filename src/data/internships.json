@@ -1,6 +1,19 @@
 [{
+    "title": "Software Engineer Intern",
+    "company": "Shopvana (Austin, TX)",
+    "tasks": "Fixed critical bugs to improve stability and achieved 95% test coverage for microservices using Jest, Migrated infrastructure to Railway, improving deployment efficiency by 30%, Migrated TikTok API from v1 to v2, improving performance and feature compatibility, Integrated Facebook and Instagram Reels posting functionality, streamlining multi-platform content uploads",
+    "date": "May 2024 - September 2024"
+},
+{
+    "title": "Website Developer (Freelance)",
+    "company": "Barna Agro Fields (Sultanpur, India)",
+    "tasks": "Built a responsive e-commerce site with HTML, CSS, JS, and PHP with Razorpay for secure transactions, Improved site speed by 40% using caching and code minification.",
+    "date": "September 2023 - February 2024"
+},
+    {
     "title": "Web Developer Intern",
-    "company": "PHN Technology Pvt. Ltd",
+    "company": "PHN Technology Pvt. Ltd (Pune, India)",
     "tasks": "Timely completion of weekly assigned tasks and efficient task prioritization for maximum productivity.",
     "date": "April 2023 - June 2023"
-}]
+}
+]
