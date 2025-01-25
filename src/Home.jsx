@@ -17,7 +17,7 @@ const Home = () => {
             className="font-bold text-3xl lg:text-6xl"
             strings={[
               "I'm Aditya.",
-              "A Final Year Student.",
+              "A Computer Science Graduate.",
               "A Frontend Developer.",
             ]}
             typeSpeed={40}

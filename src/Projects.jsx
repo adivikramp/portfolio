@@ -40,11 +40,11 @@ const Projects = () => {
                     >
                       <img
                         src={item.img}
-                        className="h-full w-full bg-cover bg-center rounded-tr-2xl rounded-tl-2xl lg:rounded-bl-2xl transition-opacity duration-300 ease-in-out group-hover:opacity-20"
+                        className="h-full w-full bg-cover bg-center rounded-tl-2xl lg:rounded-bl-2xl transition-opacity duration-300 ease-in-out group-hover:opacity-20"
                       />
                       <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
                         <span className="text-white text-lg font-bold">
-                          Open on GitHub
+                          Open Project
                         </span>
                       </div>
                     </a>

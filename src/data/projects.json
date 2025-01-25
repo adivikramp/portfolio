@@ -25,5 +25,26 @@
         "desc": "Offers advanced medical scanning for fractures and generates reports for thyroid and CBC analysis with a user-friendly interface. I Tried to enhance user experience, ensure clear presentation of medical information, and accommodate users. Worked closely with the backend team to integrate frontend with advanced functionalities. Aimed to contribute to the overall success of HealthSquare in revolutionizing healthcare delivery through effective frontend development.",
         "tech": ["MongoDB", "ExpressJS", "EJS", "NodeJS", "VertexAI", "TailwindCSS"],
         "link": "https://github.com/TEAMIRAGE/HealthSquare"
+    },
+    {
+        "img": "./images/cryptoworld.png",
+        "title": "CryptoWorld",
+        "desc": "Created a dynamic online platform that delivers the latest cryptocurrency trends, tailored for enthusiasts and investors. The platform provides real-time updates, market insights, and engaging content to keep users informed and ahead of the curve in the fast-evolving crypto space.",
+        "tech": ["ReactJS", "TailwindCSS", "Aceternity UI", "Daisy UI", "Context-API", "ChartJS"],
+        "link": "https://cryptoworld-eight.vercel.app/"
+    },
+    {
+        "img": "./images/wild-oasis.png",
+        "title": "The Wild Oasis",
+        "desc": "Developed a comprehensive hotel booking system that facilitates both guest reservations and admin management. The platform includes a user-friendly dashboard for managing bookings, inventory, and user accounts. It enables seamless reservation handling, real-time availability updates, and efficient user account management, offering a streamlined experience for both guests and administrators.",
+        "tech": ["NextJS", "Next-Auth (Auth.js)", "TailwindCSS", "Supabase"],
+        "link": "https://wild-oasis-nextjs-alpha.vercel.app/"
+    },
+    {
+        "img": "./images/huly-clone.png",
+        "title": "Huly Website Clone",
+        "desc": "Cloned The huly.io website.",
+        "tech": ["NextJS", "TailwindCSS", "ShadCN", "Aceternity UI", "motion (framer-motion)", "SwiperJS"],
+        "link": "https://huly-clone-seven.vercel.app/"
     }
 ]
