@@ -1,9 +1,12 @@
+import CompanyCard from "./components/CompanyCard"
+import { companies } from "./data/companies"
+
 const App = () => {
   return (
-    <main className="w-2/5 mx-auto border border-black min-h-screen">
+    <main className="w-2/5 mx-auto min-h-screen">
       {/* Headline */}
-      <header className="pt-16 flex h-full w-full justify-center border border-amber-400">
-        <div className="flex flex-col gap-y-1 w-auto">
+      <header className="pt-16 flex h-full w-full justify-center">
+        <div className="flex flex-col gap-y-2 w-auto">
           <h1 className="text-6xl font-bold">Hi, I'm Aditya <span className="text-7xl">👋</span></h1>
           <p className="text-xl font-semibold">Software Engineer. Love building apps with a strong focus on UI/UX. Consistent on Github.</p>
         </div>
@@ -13,8 +16,20 @@ const App = () => {
       </header>
 
       {/* About */}
-      <div className="flex flex-col pt-4">
+      <div className="flex flex-col pt-4 gap-y-2">
         <h1 className="text-xl font-bold">About</h1>
+        <p className="text-sm tracking-wide">I am currently working as a Software Engineer at Shopvana and contributing to open source in my free time. In the past, I pursued a degree in computer science. I am constantly building new projects to learn new skills, and competing in several hackathons.</p>
+      </div>
+
+      {/* Experience */}
+      <div className="flex flex-col pt-4 gap-y-2">
+        <h1 className="text-xl font-bold">Work Experience</h1>
+        <div className="flex flex-col gap-y-4 mt-2">
+          {/* Item-1 */}
+          {companies.map(company => (
+            <CompanyCard key={company.id} id={company.id} logo={company.logo} name={company.name} description={company.description} date={company.date} />
+          ))}
+        </div>
       </div>
     </main>
   )
