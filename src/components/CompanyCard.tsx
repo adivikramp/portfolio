@@ -6,14 +6,14 @@ import {
 } from "@/components/ui/accordion"
 import type { CompanyCardProps } from "@/types/types"
 
-const CompanyCard = ({ id, logo, name, description, date }: CompanyCardProps) => {
+const CompanyCard = ({ id, logo, name, role, description, date }: CompanyCardProps) => {
     return (
         <div className="flex gap-x-4 items-start">
             {/* Image */}
             <div className="flex items-center min-h-[44px]">
                 <img
                     src={`${logo ? logo : "/images/profile.jpg"}`}
-                    className="h-16 w-16 rounded-full"
+                    className="h-12 w-12 rounded-full"
                 />
             </div>
             {/* Content */}
@@ -25,11 +25,14 @@ const CompanyCard = ({ id, logo, name, description, date }: CompanyCardProps) =>
             >
                 <AccordionItem
                     value={String(id)}
-                    className="flex flex-col items-start w-full"
+                    className="flex flex-col items-start"
                 >
-                    <AccordionTrigger className="min-h-[64px] flex items-center gap-x-2 gap-y-0 py-0">
-                        {name}
-                    </AccordionTrigger>
+                    <div className="min-h-[48px] flex flex-col justify-center">
+                        <AccordionTrigger className="flex items-center gap-x-1">
+                            <span>{name}</span>
+                        </AccordionTrigger>
+                        <span className="text-sm">{role}</span>
+                    </div>
                     <AccordionContent className="flex flex-col gap-4 text-balance pt-2">
                         <p>
                             {description}
@@ -38,7 +41,7 @@ const CompanyCard = ({ id, logo, name, description, date }: CompanyCardProps) =>
                 </AccordionItem>
             </Accordion>
             {/* Date */}
-            <div className="flex items-center min-h-[66px]">
+            <div className="flex items-center min-h-[50px]">
                 <p className="font-semibold text-sm tracking-wide">{date}</p>
             </div>
         </div>
