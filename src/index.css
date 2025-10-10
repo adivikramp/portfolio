@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Licorice&family=Poppins&display=swap");
 
 @import "tailwindcss";
 
 @theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-licorice: "Licorice", cursive;
+  --font-dancingScript: "Dancing Script", cursive;
+
   --animate-rotateEyes: rotateEyes 4s infinite linear;
   --animate-wonderFace: wonderFace 2s infinite
     cubic-bezier(0.075, 0.82, 0.165, 1);
