@@ -64,8 +64,6 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "adivikramp@gmail.com",
-    tel: "+91-9685927442",
     social: {
       GitHub: {
         name: "GitHub",
@@ -169,6 +167,8 @@ export const DATA = {
       ],
       technologies: [
         "Next.js",
+        "Tanstack Query",
+        "Zustand",
         "PostgreSQL",
         "Prisma",
         "GPT-4o-mini",
@@ -199,6 +199,8 @@ export const DATA = {
       ],
       technologies: [
         "Next.js",
+        "Jotai",
+        "Tanstack Query",
         "NestJS",
         "PostgreSQL",
         "BullMQ",
@@ -219,8 +221,60 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Jot",
+      href: "https://jot-personal.vercel.app/",
+      dates: "",
+      active: true,
+      description: [
+        "A gamified productivity app landing page where habits power an evolving digital companion - built at the AI Vibe Coding Hackathon, with GSAP and Lenis-driven smooth-scroll animations and Lottie illustrations.",
+      ],
+      technologies: [
+        "Next.js",
+        "React",
+        "GSAP",
+        "Lenis",
+        "Lottie",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jot-personal.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/jot-landing-page.png",
+      video: "",
+    },
+    {
+      title: "Mohitaa Singh",
+      href: "https://mohitaasingh.in/",
+      dates: "",
+      active: true,
+      description: [
+        "An animation-rich personal brand site - scroll-driven GSAP timelines, Motion transitions, and carousels, with Vercel Analytics and Speed Insights wired in.",
+      ],
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "GSAP",
+        "Motion",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mohitaasingh.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/mohitaa-singh.png",
+      video: "",
+    },
+    {
       title: "CryptoWorld",
-      href: "https://github.com/adivikramp/cryptoworld",
+      href: "https://cryptoworld-eight.vercel.app/",
       dates: "",
       active: true,
       description: [
@@ -238,9 +292,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/adivikramp/cryptoworld",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://cryptoworld-eight.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/projects/cryptoworld.png",
@@ -248,7 +302,7 @@ export const DATA = {
     },
     {
       title: "Huly Clone",
-      href: "https://github.com/adivikramp/huly-clone",
+      href: "https://huly-clone-seven.vercel.app/",
       dates: "",
       active: true,
       description: [
@@ -264,12 +318,64 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/adivikramp/huly-clone",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://huly-clone-seven.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/projects/huly-clone.png",
+      video: "",
+    },
+    {
+      title: "Magic UI Clone",
+      href: "https://hotfoot-ai-navy.vercel.app/",
+      dates: "",
+      active: true,
+      description: [
+        "A frontend clone of a Magic UI template, built to practice modern marketing-site UI - responsive layouts, scroll-driven animations, and reusable component architecture.",
+      ],
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Motion",
+        "Radix UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hotfoot-ai-navy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/magic-ui-clone.png",
+      video: "",
+    },
+    {
+      title: "AdTask Clone",
+      href: "https://adtask-clone.vercel.app/",
+      dates: "",
+      active: true,
+      description: [
+        "A frontend clone of the AdTask landing site - responsive sections, scroll-driven animations, and a clean, reusable component architecture.",
+      ],
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Motion",
+        "Radix UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://adtask-clone.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/adtask-clone.png",
       video: "",
     },
     {
