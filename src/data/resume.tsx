@@ -114,7 +114,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "Jun 2025",
       description: [
-        "Built and shipped a full-featured MVP using React Native (Expo) — owned auth, location APIs, and AI itinerary generation from first commit to App Store approval within 60 days.",
+        "Built and shipped a full-featured MVP using React Native (Expo) - owned auth, location APIs, and AI itinerary generation from first commit to App Store approval within 60 days.",
         "Designed a Gemini AI integration with a token-minimization strategy to control inference costs; handled full App Store submission including provisioning, compliance, and release.",
       ],
     },
@@ -193,7 +193,7 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A full-stack pet competition platform with a decoupled Next.js + NestJS architecture — contests, leaderboards, voting packages, and prize withdrawals.",
+        "A full-stack pet competition platform with a decoupled Next.js + NestJS architecture - contests, leaderboards, voting packages, and prize withdrawals.",
         "Architected vote processing with BullMQ + Redis, then deliberately stripped Redis from Railway prod and replaced it with sync processing plus opt-in Redis config, keeping the system extensible without mandatory cost overhead.",
         "Integrated Stripe for vote purchases and prize withdrawals, with an admin moderation pipeline for pet approval and withdrawal processing.",
       ],
@@ -229,10 +229,12 @@ export const DATA = {
       ],
       technologies: [
         "React",
+        "Vite",
         "React Router",
         "Chart.js",
         "Framer Motion",
         "TailwindCSS",
+        "DaisyUI",
       ],
       links: [
         {
@@ -250,7 +252,7 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A pixel-faithful frontend clone of the Huly landing site, built to practice modern marketing-site UI — responsive layouts, scroll animations, and reusable component architecture.",
+        "A pixel-faithful frontend clone of the Huly landing site, built to practice modern marketing-site UI - responsive layouts, scroll animations, and reusable component architecture.",
       ],
       technologies: [
         "Next.js",
@@ -276,9 +278,17 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A full-stack cabin booking app for a fictional luxury resort — guests browse cabins, make reservations, and manage their bookings end-to-end.",
+        "A full-stack cabin booking app for a fictional luxury resort - guests authenticate, browse cabins, reserve with date-range selection, and manage their bookings end-to-end.",
       ],
-      technologies: ["Next.js", "React", "Supabase", "TailwindCSS"],
+      technologies: [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Prisma",
+        "NextAuth",
+        "Zustand",
+        "TailwindCSS",
+      ],
       links: [],
       image: "/projects/wild-oasis.png",
       video: "",
@@ -289,9 +299,9 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A clean, responsive blogging frontend for reading and browsing posts, focused on typography, readability, and content layout.",
+        "A full-stack blog platform with authentication - users sign in to read, create, and browse posts, with content persisted to MongoDB.",
       ],
-      technologies: ["React", "TailwindCSS"],
+      technologies: ["Next.js", "React", "MongoDB", "NextAuth", "TailwindCSS"],
       links: [],
       image: "/projects/bloggy.jpg",
       video: "",
@@ -302,9 +312,9 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A library management interface for browsing, searching, and tracking books, built with reusable components and a clean, modern UI.",
+        "A full-stack library management system - book browsing, search, and tracking with JWT auth, file uploads to Google Cloud Storage, and admin + user roles.",
       ],
-      technologies: ["React", "TailwindCSS"],
+      technologies: ["Node.js", "Express", "MongoDB", "EJS", "TailwindCSS"],
       links: [],
       image: "/projects/library.jpg",
       video: "",
@@ -315,9 +325,9 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A responsive frontend clone of a healthcare website — landing, services, and appointment sections built with reusable, modern UI components.",
+        "A full-stack healthcare platform - patient services and appointment booking with JWT auth, image uploads to Google Cloud Storage, and Square payment integration.",
       ],
-      technologies: ["React", "TailwindCSS"],
+      technologies: ["Node.js", "Express", "MongoDB", "EJS", "Square"],
       links: [],
       image: "/projects/medical.jpg",
       video: "",
@@ -328,9 +338,16 @@ export const DATA = {
       dates: "",
       active: true,
       description: [
-        "A responsive frontend for a plant nursery storefront — product browsing and category layouts with a focus on clean, modern UI.",
+        "A full-stack plant nursery storefront - product browsing and category layouts backed by a REST API with JWT authentication.",
       ],
-      technologies: ["React", "TailwindCSS"],
+      technologies: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+      ],
       links: [],
       image: "/projects/nursery.jpg",
       video: "",

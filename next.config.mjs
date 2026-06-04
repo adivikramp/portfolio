@@ -11,7 +11,7 @@ const nextConfig = {
     // next/image optimization is server-side; static export must serve raw files
     unoptimized: true,
   },
-  // NOTE: custom headers() removed — not supported with output: "export".
+  // NOTE: custom headers() removed - not supported with output: "export".
   // GitHub Pages cannot set response headers anyway.
 };
 
