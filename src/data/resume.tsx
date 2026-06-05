@@ -30,7 +30,8 @@ export const DATA = {
   initials: "AP",
   url: "https://adivikramp.github.io/portfolio",
   location: "Bhopal, India",
-  locationLink: "https://www.google.com/maps/place/Bhopal,+Madhya+Pradesh,+India",
+  locationLink:
+    "https://www.google.com/maps/place/Bhopal,+Madhya+Pradesh,+India",
   description:
     "Full-Stack Engineer. I build and ship web & mobile products end-to-end, from Figma to App Store.",
   summary:
@@ -301,6 +302,58 @@ export const DATA = {
       video: "",
     },
     {
+      title: "The Nest",
+      href: "https://github.com/adivikramp/TheNest",
+      dates: "",
+      active: true,
+      description: [
+        "A full-stack plant nursery storefront - product browsing and category layouts backed by a REST API with JWT authentication.",
+      ],
+      technologies: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/adivikramp/TheNest",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/nursery.png",
+      video: "",
+    },
+    {
+      title: "Bloggy",
+      href: "https://github.com/adivikramp/Bloggy",
+      dates: "",
+      active: true,
+      description: [
+        "A full-stack blog platform with authentication - users sign in to read, create, and browse posts, with content persisted to MongoDB.",
+      ],
+      technologies: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/adivikramp/Bloggy",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/bloggy.png",
+      video: "",
+    },
+    {
       title: "Huly Clone",
       href: "https://huly-clone-seven.vercel.app/",
       dates: "",
@@ -353,66 +406,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "AdTask Clone",
-      href: "https://adtask-clone.vercel.app/",
-      dates: "",
-      active: true,
-      description: [
-        "A frontend clone of the AdTask landing site - responsive sections, scroll-driven animations, and a clean, reusable component architecture.",
-      ],
-      technologies: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "Motion",
-        "Radix UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://adtask-clone.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/projects/adtask-clone.png",
-      video: "",
-    },
-    {
-      title: "The Wild Oasis",
-      href: "#",
-      dates: "",
-      active: true,
-      description: [
-        "A full-stack cabin booking app for a fictional luxury resort - guests authenticate, browse cabins, reserve with date-range selection, and manage their bookings end-to-end.",
-      ],
-      technologies: [
-        "Next.js",
-        "React",
-        "PostgreSQL",
-        "Prisma",
-        "NextAuth",
-        "Zustand",
-        "TailwindCSS",
-      ],
-      links: [],
-      image: "/projects/wild-oasis.png",
-      video: "",
-    },
-    {
-      title: "Bloggy",
-      href: "#",
-      dates: "",
-      active: true,
-      description: [
-        "A full-stack blog platform with authentication - users sign in to read, create, and browse posts, with content persisted to MongoDB.",
-      ],
-      technologies: ["Next.js", "React", "MongoDB", "NextAuth", "TailwindCSS"],
-      links: [],
-      image: "/projects/bloggy.jpg",
-      video: "",
-    },
-    {
       title: "Library",
       href: "#",
       dates: "",
@@ -438,26 +431,6 @@ export const DATA = {
       image: "/projects/medical.jpg",
       video: "",
     },
-    {
-      title: "Nursery",
-      href: "#",
-      dates: "",
-      active: true,
-      description: [
-        "A full-stack plant nursery storefront - product browsing and category layouts backed by a REST API with JWT authentication.",
-      ],
-      technologies: [
-        "React",
-        "Vite",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "TailwindCSS",
-      ],
-      links: [],
-      image: "/projects/nursery.jpg",
-      video: "",
-    },
   ],
   hackathons: [
     {
@@ -474,7 +447,8 @@ export const DATA = {
       title: "Atlas Madness Global Hackathon by MongoDB & Google Cloud",
       dates: "May 2023 - July 2023",
       location: "Online (Global)",
-      description: "Enhanced the medical platform submitted to Solving for India by adding tumor detection and storing customer data.",
+      description:
+        "Enhanced the medical platform submitted to Solving for India by adding tumor detection and storing customer data.",
       image: "/hackathons/atlas-madness.png",
       win: "2nd Place",
       links: [],
@@ -483,16 +457,18 @@ export const DATA = {
       title: "Afourathon 3.0 National Hackathon by Afour Technologies",
       dates: "June 2023 - July 2023",
       location: "Online (National)",
-      description: "Enhanced Atlas Madness submission with a recommendation system for treatment plans and a chatbot interface for patient queries",
+      description:
+        "Enhanced Atlas Madness submission with a recommendation system for treatment plans and a chatbot interface for patient queries",
       image: "/hackathons/afourathon.webp",
-      win:"Top 9 (National)",
+      win: "Top 9 (National)",
       links: [],
     },
     {
       title: "BoostHacks Global Hackathon",
       dates: "September 2023 - October 2023",
       location: "Online (Global)",
-      description: "Developed an AI-powered library management system with book recommendations. Admin + User interfaces",
+      description:
+        "Developed an AI-powered library management system with book recommendations. Admin + User interfaces",
       image: "/hackathons/boosthacks.jpeg",
       win: "1st Place (Education)",
       links: [],
@@ -501,7 +477,8 @@ export const DATA = {
       title: "Docker AI/ML Hackathon",
       dates: "October 2023 - November 2023",
       location: "Online (Global)",
-      description: "Integrated vertex AI to the existing healthcare system developed during afourathon 3.0.",
+      description:
+        "Integrated vertex AI to the existing healthcare system developed during afourathon 3.0.",
       image: "/hackathons/docker-ai-ml.png",
       links: [],
     },
@@ -509,7 +486,8 @@ export const DATA = {
       title: "OpenAI Open Model Hackathon",
       dates: "August 2025 - September 2025",
       location: "Online (Global)",
-      description: "Created a shop assistant using voice recognition to add orders to cart and answer customer queries.",
+      description:
+        "Created a shop assistant using voice recognition to add orders to cart and answer customer queries.",
       image: "/hackathons/openai-open-model.png",
       links: [],
     },
@@ -517,7 +495,8 @@ export const DATA = {
       title: "AI Vibe Coding Hackathon",
       dates: "January 2026 - February 2026",
       location: "Online (Global)",
-      description: "Created a gamified productivity app. Created Jot - an app where habits power an evolving digital companion.",
+      description:
+        "Created a gamified productivity app. Created Jot - an app where habits power an evolving digital companion.",
       image: "/hackathons/ai-vibe-coding.png",
       links: [],
     },
